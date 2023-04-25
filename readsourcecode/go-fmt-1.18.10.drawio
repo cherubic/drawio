@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T05:48:51.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9r66HRBpkCyaraWs4rSw" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T05:49:23.855Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dSY_EgS7xql8zyGqInin" version="21.1.4" type="github">
   <diagram name="go-fmt-1.18.10" id="5d7acffa-a066-3a61-03fe-96351882024d">
     <mxGraphModel dx="1434" dy="2471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -234,7 +234,7 @@
             <mxPoint x="1030" y="-100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V4z1n50acwo4eVlVMmbz-101" value="gogo(format string, a []any)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;labelBackgroundColor=none;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=default;html=1;" parent="1" vertex="1">
+        <mxCell id="V4z1n50acwo4eVlVMmbz-101" value="doPrintf(format string, a []any)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;labelBackgroundColor=none;comic=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=default;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="-170" width="260" height="286" as="geometry" />
         </mxCell>
         <mxCell id="V4z1n50acwo4eVlVMmbz-102" value="end := len(format)&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;// 字符串长度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;labelBackgroundColor=none;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=default;startSize=26;html=1;" parent="V4z1n50acwo4eVlVMmbz-101" vertex="1">
